@@ -14,6 +14,7 @@ return {
       --   'git_status',
       --   'document_symbols',
       -- },
+      use_popups_for_input = false,
       source_selector = {
         winbar = true,
         -- sources = {
@@ -31,6 +32,7 @@ return {
           ['<c-x>'] = 'open_split',
           ['<c-v>'] = 'open_vsplit',
           ['i'] = 'open_split',
+          ['m'] = 'nop',
         },
       },
       filesystem = {

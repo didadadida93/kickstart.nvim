@@ -6,7 +6,7 @@ return {
       create_mappings = false,
       comment_empty = false,
       hook = function()
-        require("ts_context_commentstring.internal").update_commentstring()
+        require("ts_context_commentstring.internal").update_commentstring({})
       end
     })
   end
